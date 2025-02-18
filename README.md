@@ -44,4 +44,4 @@ Notes:
 
 #### Critique
 
-I would not use the function **search** in real life because it requires a sorted list, and if the list is not sorted, the sorting step could increase the overall complexity to (O(logN)).
+I would not use the function **search** in real life because it requires a sorted list, and if the list is not in order, lst[mid] can move away from the key, making the search fail.
